@@ -1,0 +1,58 @@
+# Python + local tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+*.egg-info/
+
+# Local and production configuration
+.env
+.env.*
+!.env.example
+*.secrets*
+*secret*.json
+*token*.json
+config.local.*
+settings.local.*
+
+# Keys, certificates, identities
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+*.prk
+*.pub
+id_rsa*
+id_ed25519*
+known_hosts
+
+# Vendor libraries, collectors, outputs
+vendor/
+KlAkOAPI*/
+*.zip
+*.sqlite
+*.sqlite3
+*.db
+*.xlsx
+*.csv
+results/
+reports/
+output/
+*.log
+*.bak
+*.before-*.py
+
+# Local JSON is not source code in this repository
+*.json
+!*.example.json
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
